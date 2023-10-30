@@ -14,7 +14,7 @@
     transition: all .2s linear;
 }
 *::selection{
-    background: var(--yellow);
+    background: yellow;
     color:black;
 }
 html{
@@ -29,7 +29,7 @@ html::-weblit-scrollbar-track{
     background: #222;
 }
 html::-weblit-scrollbar-thumb{
-    background: var(--yellow);
+    background: yellow;
 }
 body{
     background:#111;
@@ -65,7 +65,7 @@ section{
     color:#fff;
 }
 .heading span{
-color:var(--yellow);
+color:yellow;
 }
 header{
     position: fixed; 
@@ -86,7 +86,7 @@ header .user img{
     border-radius:50%;
     object-fit: cover;
     margin-bottom:1rem; 
-    border:.7rem solid var(--yellow);
+    border:.7rem solid yellow;
    
 }
 header .user name{
@@ -115,7 +115,7 @@ header .navbar ul li a{
    
 }
 header .navbar ul li a:hover{
-background:var(--yellow);
+background:yellow;
 }
 #menu{
     position: fixed;
@@ -187,7 +187,7 @@ padding: 1rem 0;
 }
 .about .row .info h3{
     font-size: 2rem;
-    color:var(--yellow);
+    color:yellow;
     padding: 1rem 0;
     font-weight: normal;
 }
@@ -238,5 +238,5 @@ position:relative;
     text-align: center;
     font-size: 2rem;
     color:white;
-    background: var(--yellow);
+    background: yellow;
 }
